@@ -1,0 +1,142 @@
+:root{
+ background: red;
+}
+
+body{
+ color: black;
+}
+
+h1{
+ background: blue;
+}
+
+.green{
+ color: green;
+}
+
+#blue{
+ color: rgb(22, 22, 133);
+}
+
+.box p{
+ background: red;
+}
+
+.box div{
+ background: rgb(26, 194, 26);
+}
+
+.brown{
+ background: rgb(134, 32, 32);
+ color: white;
+}
+
+ul>li{
+ background: red;
+}
+
+button+span{
+ background: red;
+}
+
+.susid~p{
+ background: blueviolet;
+ color: white;
+}
+
+#bread, .salo{
+ background: yellow;
+ color: red;
+}
+
+.first-task li:first-child{
+ color: white;
+}
+
+.second-task li:first-child{
+ color: yellow;
+}
+
+.third-task ul+ul :first-child{
+ background: yellow;
+ color: white;
+}
+
+.four-task ul :last-child{
+ background: yellow;
+}
+
+.five-task ul+ul :last-child{
+ color: white;
+}
+
+.only-child-task div:only-child{
+ color: red;
+}
+
+.seven-task p:first-of-type{
+ background: red;
+}
+
+.eight-task span:last-of-type{
+ background: red;
+}
+
+.nine-task .text-wrapper p:only-of-type{
+ background: yellow;
+}
+
+.lesson-three-task-one a[href]{
+ color: white;
+}
+
+.lesson-three-task-two li[value]{
+ color: yellow;
+}
+
+.lesson-three-task-three li[value="3"]{
+ background: red;
+}
+
+.lesson-three-task-four button[class~="primary"]{
+ background: blue;
+}
+
+.lesson-three-task-five button[class|="secondary"]{
+ background: rgb(182, 53, 53);
+}
+
+.lesson-three-task-six li[class^="b"]{
+ background: whitesmoke;
+ color:rgb(26, 194, 26)
+}
+
+.lesson-three-task-seven li[class*="on"]{
+ background: whitesmoke;
+ color:rgb(26, 194, 26)
+}
+
+.lesson-three-task-eight span[class$="s"]{
+ background: whitesmoke;
+ color:rgb(51, 26, 194)
+}
+
+.lesson-three-task-nine h2::first-letter{
+ color:red
+}
+
+.lesson-three-task-ten p::first-line{
+ background: yellow;
+}
+
+.lesson-three-task-eleven input::placeholder{
+ background: red;
+}
+
+.lesson-three-task-twelve li::before{
+ content: "➤ ";
+}
+
+.lesson-three-task-thirteen li::after{
+ content: " 😋  ";
+}
